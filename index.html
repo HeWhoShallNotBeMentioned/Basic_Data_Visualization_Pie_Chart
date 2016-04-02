@@ -2,15 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Detroit Tiger Wins by Year</title>
+    <title>Percent of Population Living in Poverty Globaly</title>
   </head>
   <body>
     <div id="chart" style="width:800px;height:400px;"></div>
     <script type="text/javascript" src="js/flotr2.js"> </script>
     <script>
+      var data =[[[0,22,4]], [[1,77,6]]]
+      window.onload = function () {
+        Flotr.draw(document.getElementById("chart"), data, {
+          pie: {
+            show: true
+          },
+          yaxis: {
+            showLabels: false
+          },
+          grid: {
+            horizontalLines: false,
+            verticalLines: false
+          }
+        });
+      }
 
-
-  
     </script>
   </body>
 </html>
