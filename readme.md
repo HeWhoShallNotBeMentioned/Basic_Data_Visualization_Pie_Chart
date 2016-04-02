@@ -1,12 +1,12 @@
-# _Simple Bar Chart_
+# _Simple Pie Chart_
 
-#### _{Displays 10 years of Detroit Tigers win counts graphically}, {3/31/2016}_
+#### _{Displays What % of the world population lives in extreme overty}, {3/31/2016}_
 
 #### By _**{Chris Underwood}**_
 
 ## Description
 
-_{Static chart that prints the number of wins for the Detroit Tigers over a ten year period by year. Data is stored in a series of arrays in the script. Adapted in part from Data Visualization with JavaScript by Stephen A. Thomas}_
+_{Static chart that prints the % of the world population lives in extreme poverty. Only 2 sections of the pie chart those in extreme poverty and those not. A label for the extreme poverty group has been added. Data is stored in a series of arrays in the script. Adapted in part from Data Visualization with JavaScript by Stephen A. Thomas}_
 
 ## Setup/Installation Requirements
 Download the files.
